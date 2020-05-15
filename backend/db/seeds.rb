@@ -15,15 +15,15 @@ Location.create([
 ])
 
 Catch.create([
-    {name: "Rainbow", catch_type: "Trout"},
-    {name: "Brown", catch_type: "Trout"},
-    {name: "Striped Bass", catch_type: "Bass"},
-    {name: "Grouper", catch_type: "Bass"}
+    {name: "Rainbow", fish_type: "Trout"},
+    {name: "Brown", fish_type: "Trout"},
+    {name: "Striped Bass", fish_type: "Bass"},
+    {name: "Grouper", fish_type: "Bass"}
 ])
 
-# Location.find_by_id(1).update(catch_ids: [1, 2])
-# Location.find_by_id(2).update(catch_ids: [1, 2])
-# Location.find_by_id(3).update(catch_ids: [1, 2])
-# Location.find_by_id(4).update(catch_ids: [1, 2, 3])
-# Location.find_by_id(5).update(catch_ids: [1, 2])
-# Location.find_by_id(6).update(catch_ids: [1, 2])
+Location.find_by_id(1).update(catch_ids: [1, 2])
+Location.find_by_id(2).update(catch_ids: [1, 2])
+Location.find_by_id(3).update(catch_ids: [1, 2])
+Location.find_by_id(4).update(catch_ids: [1, 2, 3])
+Location.find_by_id(5).update(catch_ids: [1, 2])
+Location.find_by_id(6).update(catch_ids: [1, 2])
