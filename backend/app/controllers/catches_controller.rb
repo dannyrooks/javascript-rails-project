@@ -5,12 +5,12 @@ class CatchesController < ApplicationController
   def index
     @catches = Catch.all
 
-    render json: @catches
+    render json: @catches, include: :locations
   end
 
   # GET /catches/1
   def show
-    render json: @catch
+    render json: @catch, include: :locations
   end
 
   # POST /catches
