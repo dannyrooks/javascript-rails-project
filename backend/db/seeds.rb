@@ -14,12 +14,12 @@ Location.create([
     {name: "Willamette River", state: "Oregon", city: "Albany", country: "USA"},
 ])
 
-# Catch.create([
-#     {name: "Rainbow", catch_type: "Trout"},
-#     {name: "Brown", catch_type: "Trout"},
-#     {name: "Striped Bass", catch_type: "Bass"},
-#     {name: "Grouper", catch_type: "Bass"}
-# ])
+Catch.create([
+    {name: "Rainbow", catch_type: "Trout"},
+    {name: "Brown", catch_type: "Trout"},
+    {name: "Striped Bass", catch_type: "Bass"},
+    {name: "Grouper", catch_type: "Bass"}
+])
 
 # Location.find_by_id(1).update(catch_ids: [1, 2])
 # Location.find_by_id(2).update(catch_ids: [1, 2])
