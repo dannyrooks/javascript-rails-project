@@ -8,10 +8,13 @@ class Location {
         this.city = data.city;
         this.country = data.country;
         this.catches = data.catches;
+        this.save();
 
+        
     }
 
     save() {
         Location.all.push(this);
     }
+
 }
